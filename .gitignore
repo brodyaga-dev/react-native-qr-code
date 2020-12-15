@@ -35,6 +35,10 @@ node_modules/
 npm-debug.log
 yarn-error.log
 
+
+# after edit (ferdiozer.com)
+android
+
 # BUCK
 buck-out/
 \.buckd/

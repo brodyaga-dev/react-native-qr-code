@@ -50,7 +50,7 @@ class Wifi extends Component {
             ssid: '',
             password: '',
             value: '',
-            encryptionType: 'wpawpa2',
+            encryptionType: 'WPA/WPA2',
             isHiddenNetwork: false
         };
     }
@@ -143,8 +143,8 @@ class Wifi extends Component {
                             style={styles.pickerInput}
                             onValueChange={(itemValue, itemIndex) => this.setState({ encryptionType: itemValue })}
                         >
-                            <Picker.Item label="WPA/WPA2" value="wpawpa2" />
-                            <Picker.Item label="WEP" value="wep" />
+                            <Picker.Item label="WPA/WPA2" value="WPA/WPA2" />
+                            <Picker.Item label="WEP" value="WEP" />
                             <Picker.Item label="none" value="None" />
                         </Picker>
                     </View>
